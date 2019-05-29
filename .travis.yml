@@ -2,7 +2,7 @@ language: python
 
 install:
   - pip install pipenv
-  - pipenv sync
+  - pipenv sync --dev
 script:
   - 'coverage run testing.py'
   - 'coverage run xml'
