@@ -1,0 +1,10 @@
+language: python
+
+install:
+  - pip install pipenv
+  - pipenv sync
+script:
+  - 'coverage run testing.py'
+  - 'coverage run xml'
+after_success:
+  - 'codecov'
