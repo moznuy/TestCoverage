@@ -2,7 +2,7 @@ from django.db import models
 from fysom import FysomGlobalMixin, FysomGlobal
 
 # Create your models here.
-class TestMachine(FysomGlobalMixin, models.Model):
+class Machine(FysomGlobalMixin, models.Model):
     GSM = FysomGlobal(
         events=[
             ('key_put',  'idle',  'engine_starting'),
