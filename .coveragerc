@@ -1,0 +1,9 @@
+[run]
+ omit =
+  */environment/*
+  */migrations/*
+  Amazon_customers/*
+  manage.py
+  */tests.py
+  */manage.py
+  whynot/whynot/*

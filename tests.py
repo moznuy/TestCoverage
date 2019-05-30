@@ -10,6 +10,7 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'whynot.settings')
 django.setup()
 
 from FyTest.models import TestMachine
+from FyTest import views
 
 
 class TestMethods(unittest.TestCase):
